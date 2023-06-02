@@ -1,0 +1,91 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opina</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="d-flex">
+                <p class="title">Olé</p>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="posiciones.html">Posiciones</a></li>
+                <li><a href="contact.html">Opina!</a></li>
+            </ul>
+        </nav>
+        <img class="portada-home" src="img/portada-home.jpg" alt="portada">
+        <h1>Envianos tu opinion</h1>
+    </header>
+    <div class="box-cartel d-none" id="cartel">
+        <h1>Muchas gracias!</h1>
+        <p>El formulario se a enviado con exito.</p>
+        <button><a href="index.html">Aceptar</a></button>
+    </div>
+    <form action="" id="form">
+
+        <h2 class="form-title">Formulario</h2>
+        <label class="form-label" for="">Nombre</label>
+        <input type="text" id="name" class="form-input">
+
+        <label class="form-label" for="">Apellido</label>
+        <input type="text" id="surname" class="form-input">
+
+        <label class="form-label" for="">Email</label>
+        <input type="text" id="email" class="form-input">
+
+        <label class="form-label" for="">Equipo</label>
+        <select name="" id="team" class="form-select">
+                    <option value="">Selecciona un equipo</option>
+                    <option value="aldosivi">Aldosivi</option>
+                    <option value="argentinos">Argentinos Juniors</option>
+                    <option value="arsenal">Arsenal de Sarandí</option>
+                    <option value="tucuman">Atlético Tucumán</option>
+                    <option value="bokita">Boca Juniors</option>
+                    <option value="celtral">Central Córdoba (Santiago del Estero)</option>
+                    <option value="banfield">Banfield</option>
+                    <option value="colon">Colón (Santa Fe) </option>
+                    <option value="river">River Plate</option>
+                    <option value="estudion">Estudiantes de La Plata</option>
+                    <option value="san lorenzo">San Lorenzo</option>
+                    <option value="racing">Racing Club</option>
+                    <option value="defensa">Defensa y Justicia</option>
+                    <option value="tecomiste7">Gimnasia La Plata</option>
+                    <option value="godoy">Godoy Cruz Antonio Tomba</option>
+                    <option value="huracan">Huracán</option>
+                    <option value="independiente">Independiente</option>
+                    <option value="lanus">Lanús</option>
+                    <option value="newell">Newell's Old Boys</option>
+                    <option value="patronato">Patronato</option>
+                    <option value="platense">Platense</option>
+                    <option value="rosario">Rosario Central</option>
+                    <option value="sarmiento">Sarmiento (Junín)</option>
+                    <option value="talleres">Talleres (Córdoba)</option>
+                    <option value="union">Unión (Santa Fe)</option>
+                    <option value="velez">Vélez Sarsfield</option>
+            </select>
+        <p class="error" id="error-team"></p>
+
+        <label for="" class="form-label">Opinion de la Copa SuperLiga</label>
+        <textarea class="form-text" id="opinion"></textarea>
+
+        <label for="" class="form-label">Captcha <span  id="say-captcha"></span></label>
+        <input type="text" id="captcha" class="form-input">
+        <p class="dialog-form" id="dialog"></p>
+        <input type="button" value="Enviar" class="form-submit" id="btn-form">
+    </form>
+
+    <footer class="d-flex">
+        <a href="index.html" class="flex">Diario Olé</a>
+        <p>Copyright © 2020-2021 Olé S.R.L.</p>
+        <p class="flex">Ciencias Exactas - TUDAI</p>
+    </footer>
+
+    <script src="js/validacion.js"></script>
+</body>
+
+</html>

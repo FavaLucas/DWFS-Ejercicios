@@ -1,0 +1,78 @@
+/* .flex-div es el contenedor padre y hay propiedades que si o si se debe especificar aqui*/
+.flex-div {
+    display: flex; /* Para usar Flex, el contenedor padre debe ser display flex*/ 
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* flex-flow: row wrap; /* unifica las opciones flex direction y flex wrap*/
+    justify-content:center; /* como ubicar los items horizontalmente que es el eje principal*/
+    width: auto;
+    border: 3px solid black;
+    padding: 20px;
+    align-items: start; /*alineacion de los items respecto del eje vertical que es el eje secundario*/ 
+    align-content:normal;
+    width: 90%;
+    height: 90%;
+    background-color: aqua;
+}
+
+/* Todos estos elementos son hijos de flex-div por que estan contenidos en el*/
+.primero {
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    flex-grow: 6;
+    flex-shrink: 6;
+    align-self:flex-start
+}
+
+.segundo {
+    background-color: blue;
+    width: 75px;
+    height: 75px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    align-self:normal;
+}
+
+.tercero {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    flex-grow: 3;
+    flex-shrink: 3;
+    align-self:center;
+}
+
+
+.input-formulario {
+    flex-grow: 1;
+    height: 30px;
+}
+.input-formulario:focus-visible{
+    outline: none;
+    box-shadow: 0px 0px 3px 0px red;
+}
+
+.boton {
+    height: 50px;
+    margin-left: 20px;
+}
+.boton:hover{
+    background-color: coral;
+}
+.boton:active{
+    background-color: rgba(0, 255, 0, 0.5);
+}
+
+.flex-input {
+    margin-left: 15px;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+}
+
+ /*flex-direction: row; /* direccion en que se van a posicionar los elementos hijos*/
+    /*flex-wrap: nowrap; /* los elementos siempre van en una misma linea, 
+    lo que se hace esta propiedadd es definir que pasa con el derbordamiento cuando no entren en la pantalla. 
+    wrap permite que se mueva hace abajo y no wrap hace que no se caigan */

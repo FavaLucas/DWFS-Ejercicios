@@ -1,0 +1,50 @@
+div > p {
+    font-size: 20px;    
+    color:gray ;
+    font-weight: bold;
+}
+li{
+    list-style:decimal ;
+    font-weight:normal ;
+    font-style: italic;
+    font-size: 11px;
+}
+div.detalle p{
+    font-size: 16px;
+    
+}
+.detalle li{
+    list-style:disc ;
+    font-style:normal ;
+    font-size: 16px;
+    
+}
+.detalle li:hover{
+    text-decoration: underline;
+}
+.detalle li:last-child {
+    font-weight: bold;
+}
+.acciones{
+    font-style: italic;
+}
+
+button{
+    background-color:#15BD95;
+    color: white;
+    padding: 10px 5px;
+    font-weight: bold;
+}
+button:hover{
+    background-color: #0ce7b4;
+    
+}
+button:last-child{
+    background-color: #C93F3F;
+}
+button:last-child:hover{
+    background-color: #f54949;
+}
+button:active{
+    filter: brightness(1.5);
+}

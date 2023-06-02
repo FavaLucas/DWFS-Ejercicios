@@ -1,0 +1,27 @@
+.div1{
+border: 10x solid color green;
+border-color:chocolate;
+padding-left: 300px ;
+margin: 20px;
+height: 50px;
+width: 500px;
+color: aqua;
+background-color: yellow;
+border-style: double;
+}
+
+.div2{
+border: 20px color solid blue;
+padding-right: 1px;
+margin: 60px;
+background-color: red;
+width: 60%;
+padding-bottom: 80px;
+}
+
+.div3{
+border: 30px color orange;
+padding: 50px;
+margin: 100px;
+background-color: blueviolet;
+}

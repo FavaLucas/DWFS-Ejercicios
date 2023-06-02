@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <title> Este es mi HTML</title>
+    <script>
+      function pedirNumber (){
+        const numero = prompt ("Ingrese un numero: ");
+        document.getElementById ("miinput").value = numero;
+      }
+    </script>
+  </head>
+
+
+<body>
+    <div>
+      <p> Este es mi parrafo </p>
+      <!-- El imput es una etiqueta sin contenido -->
+      <input id="miinput" name="miinput" type="text" placeholder="Introduzca su password...">
+      <button onclick = "pedirNumber()"> OK</button>
+    </div>
+</body>
+
+</html>

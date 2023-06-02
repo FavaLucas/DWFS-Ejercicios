@@ -1,0 +1,8 @@
+import * as readlineSync from 'readline-sync';
+
+let alturaRectangulo = readlineSync.question("Ingrese altura Rectangulo: ");
+let baseRectangulo = readlineSync.question("Ingrese base del Rectangulo: ");
+
+let areaDelRectangulo = alturaRectangulo * baseRectangulo;
+
+console.log("El area del rectangulo es:", areaDelRectangulo);

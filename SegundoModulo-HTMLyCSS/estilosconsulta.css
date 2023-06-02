@@ -1,0 +1,16 @@
+.tipo1{
+    width: auto; /*Ancho automatico en relacion al navegador*/
+    height: auto; /*Alto automatico en relacion al contenido*/
+    padding: 15px; /*Separacion del contenido en relacion todos los borde*/
+    border: 40px; /*Grosor del borde de nuestro div*/
+    border-style:groove;
+    border-color: yellowgreen;
+    background-color: blue;
+}
+
+.imagen2{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}

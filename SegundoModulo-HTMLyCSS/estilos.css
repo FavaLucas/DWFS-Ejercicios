@@ -1,0 +1,63 @@
+body {
+    background-color: #336699;
+    background-size: 100%;
+    background-image: url(./imagenes/tortugas-ninja.jpg);
+}
+
+/*Comentarios en css son de este tipo*/
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #eb3e09;
+    font-size: 50px;
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.parrafo1 {
+    font-size: 19px;
+    text-align: right;
+    color: #abcdef
+}
+.sinorden{
+    list-style: georgian;
+}
+.conorden{
+    font-family: 'Times New Roman', Times, serif;
+    list-style:armenian;
+}
+.parrafo2 {
+    font-style: oblique;
+    text-align: justify;
+    font-weight: 500px;
+}
+
+/* las clases tipo id son para uso de una sola vez*/
+#parrafoUnico {
+    font-size: 123px;
+}
+
+h2 {
+    text-align: left;
+    color: #08fc96;
+    font-size: 18px;
+}
+
+p {
+    font-size: large;
+}
+
+.inline1{
+    font-style: italic;
+    font-weight: bold;
+}
+
+.inline2{
+    color:  red;
+}
+/*Esto de las imaenes se usara cuando veamos objetos
+img{
+    width: 200px;
+}
+*/

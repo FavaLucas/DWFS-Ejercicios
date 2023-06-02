@@ -1,0 +1,16 @@
+div > p {
+    font-weight: bold;
+    font-size: 20px;
+    color: gray;
+}
+div.detalle p {
+    font-size: 16px;
+}
+
+li:hover {
+    text-decoration: underline;
+}
+
+.detalle li:last-child{
+    font-weight: bold;
+}

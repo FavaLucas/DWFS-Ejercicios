@@ -1,0 +1,162 @@
+body {
+    padding: 0;
+    margin: 1%;
+    box-sizing: border-box;
+}
+
+/************************************/
+/****contenedor GENERAL****/
+/************************************/
+.contenedor {
+    background-color: white;
+    width: 90%;
+    max-width: 1500px;
+    margin: auto;
+    /* Flex  */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 10px;
+    /*Las 2 opciones se reemplazan por flor-flow row wrap*/
+}
+
+/************************************/
+/* Contenedores Padres */
+/************************************/
+.encabezado1 {
+    background-color: gray;
+    border-radius: 5px;
+    border: 4px black solid;
+    /* Flex  */
+    display: flex;
+    flex-direction: column;
+}
+
+.encabezado1-a {
+    height: 60px;
+    padding: 10px;
+    /* Flex  */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: end;
+}
+
+.encabezado1-b {
+    gap: 15%;
+    height: 60px;
+    padding: 10px;
+    /* Flex  */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.encabezado2 {
+    gap: 10px;
+    border-radius: 5px;
+    /* Flex  */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+}
+
+.encabezado3 {
+    gap: 10px;
+    border-radius: 5px;
+    /* Flex  */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.pie {
+    border-radius: 5px;
+    background-color: lightskyblue;
+    border: 4px black solid;
+    height: 60px;
+    padding: 10px;
+    /* Flex  */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+
+/************************************/
+/*   Elementos hijos               */
+/************************************/
+.menu1 {
+    background-color: green;
+    border: 2px black solid;
+    height: 50px;
+    width: 200px;
+}
+
+.logo {
+    background-color: blue;
+    border: 2px black solid;
+    height: 50px;
+    width: 50px;
+    flex: 1 1 25%;
+}
+
+.menu2 {
+    background-color: brown;
+    border: 2px black solid;
+    height: 50px;
+    width: 400px;
+    flex: 1 1 75%;
+}
+
+.izquierda1 {
+    background-color: darkgrey;
+    height: 250px;
+    flex: 1 1 30%;
+    border: 4px black solid;
+    border-radius: 5px;
+
+}
+
+.centro {
+    background-color: lightskyblue;
+    height: 250px;
+    flex: 1 1 30%;
+    border: 4px black solid;
+    border-radius: 5px;
+
+}
+
+.derecha1 {
+    background-color: orange;
+    height: 250px;
+    flex: 1 1 30%;
+    border: 4px black solid;
+    border-radius: 5px;
+}
+
+.izquierda2 {
+    background-color: darkgreen;
+    height: 250px;
+    flex: 1 1 60%;
+    border: 4px black solid;
+    border-radius: 5px;
+}
+
+.derecha2 {
+    background-color: darkorange;
+    height: 250px;
+    flex: 1 1 26%;
+    border: 4px black solid;
+    border-radius: 5px;
+}
+
+.elemento {
+    background-color: blue;
+    height: 50px;
+    width: 100px;
+    border: 2px black solid;
+}

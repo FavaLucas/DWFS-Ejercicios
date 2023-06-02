@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    /*background-color: orange;*/
+}
+body{
+    background-image: url(./imagenes/supermercado.jpg);
+    background-size: cover;
+}
+
+header{
+    width: 80%;
+    margin: 0 auto;
+}
+h1{
+    text-align: left;
+    border-bottom: 2px solid black;
+}
+#contenedor{
+    padding: 50px 50px 50px 50px;
+}
+
+#contenedor h2{
+    text-align: left;
+    margin: 0 0 0 0;
+}
+
+#cajas{
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border:dotted black;
+}
+
+.cuadrados{
+    width: 20%;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.cuadrados p{
+    text-align: center;
+}
+
+#nombre {
+    background-color: blue;  
+}
+
+#precio {
+    background-color: red; 
+}
+
+#stock {
+    background-color: green; 
+}
+
+footer{
+    width: 80%;
+    margin: 0 auto;
+}
+
+h3{
+    text-align: center;
+}

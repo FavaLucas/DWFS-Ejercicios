@@ -1,0 +1,379 @@
+/*Body - header*/
+
+body {
+    background-color: rgba(179, 252, 170, 0.145);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    margin: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+header a,
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+header img {
+    width: 100%;
+}
+
+header h1,
+footer,
+nav,
+.box-main-table table caption,
+.box-main-table thead th,
+.ft {
+    background-color: #87b400;
+}
+
+header h1 {
+    text-align: center;
+    padding: 5px;
+    margin: 0%;
+}
+
+footer {
+    align-items: center;
+    padding: 1% 4% 1% 4%;
+    font-size: 13px;
+}
+
+footer p {
+    flex: 5 1 auto;
+    text-align: center;
+}
+
+.flex {
+    flex: 1 1 auto;
+}
+
+
+/*Menu*/
+
+.title {
+    color: White;
+    height: 42px;
+    margin: 0;
+    margin-left: 0;
+    margin-right: 30px;
+    margin-bottom: 0;
+    font-size: 36px;
+    font-weight: bold;
+    border-bottom: 3px solid black;
+}
+
+nav {
+    margin: auto;
+    border-bottom: 3px solid rgba(151, 248, 103, 0.9);
+    overflow: hidden;
+    padding-left: 4%;
+}
+
+nav ul,
+ol {
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    align-items: center;
+}
+
+nav li a {
+    display: block;
+    padding: 10px 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/*Display - absolute - categorias - style font*/
+
+.d-flex {
+    display: flex;
+}
+
+.d-none {
+    display: none;
+}
+
+.d-block {
+    display: block;
+}
+
+.txt-absolute {
+    margin-top: -86px;
+    width: 80%;
+    background-color: rgba(84, 240, 23, 0.501);
+    position: absolute;
+}
+
+.txt-absolute h1 {
+    color: white;
+}
+
+.categoria {
+    margin-top: -30px;
+    position: absolute;
+    padding: 5px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.tn {
+    background-color: #F98008;
+}
+
+.txt-gris {
+    color: rgba(97, 97, 97, 1);
+    font-weight: bold;
+}
+
+.subrayado {
+    text-decoration: underline black;
+    font-weight: bold;
+}
+
+.negrita {
+    font-weight: bold;
+}
+
+.subrayado01 {
+    color: #87b400;
+    text-decoration: underline #87b400;
+    font-weight: bold;
+}
+
+
+/*Cajas de noticias*/
+
+.box-container {
+    margin: 0%;
+    margin-top: 0.5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.box-container a {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.destacado img {
+    width: 100%;
+}
+
+.destacado {
+    padding-bottom: 1%;
+}
+
+.destacado h1 {
+    text-align: center;
+}
+
+.box-noticias {
+    flex-flow: row wrap;
+    /* flex-flow es igual a
+    flex-direction: row;
+    flex-wrap: wrap;
+    */
+}
+
+.box-noticias img {
+    width: 100%;
+}
+
+.articulo {
+    margin: 0.5%;
+    flex: 1 1 30%;
+    /*flex es flex-grow / flex-shrink y flex-basis;
+    flex-grow: 1;
+    flex-basis: 30%;
+    */
+}
+
+.nota-noticia {
+    text-align: justify;
+    margin: 1% 10% 5% 10%;
+    font-size: 20px;
+}
+
+.nota-noticia img {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+
+/*Tabla*/
+
+.box-main-table {
+    flex-flow: row wrap;
+    margin-left: 4%;
+    margin-right: 4%;
+    justify-content: center;
+}
+
+.box-main-table table caption {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.box-main-table thead th {
+    padding: 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.box-main-table table,
+td,
+tr {
+    padding: 7px;
+    margin: 50px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.clasificados {
+    background-color: rgba(151, 248, 103, 0.9);
+    color: black;
+    font-weight: bold;
+}
+
+
+/*Form*/
+
+.box-cartel {
+    text-align: center;
+}
+
+form,
+.box-cartel {
+    background: rgb(241, 244, 245, 0.494);
+    width: 30%;
+    margin: 5% 35% 5% 35%;
+    padding-bottom: 1%;
+    box-shadow: 0px 0px 10px 10px rgba(11, 230, 18, 0.2);
+    border-radius: 11px;
+    font-weight: bold;
+}
+
+.form-title,
+.box-cartel h1,
+.form-submit,
+.box-cartel button {
+    background-color: #87b400;
+}
+
+.form-title,
+.box-cartel h1 {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    border-bottom: 3px solid rgba(151, 248, 103, 0.9);
+    border-radius: 11px 11px 0px 0px;
+}
+
+.form-input,
+.form-label,
+.form-submit,
+.form-select,
+.form-text {
+    display: block;
+    width: 95%;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.form-input,
+.form-select,
+.form-text {
+    border: 1px solid #87b400;
+}
+
+.form-input {
+    background: rgba(242, 245, 245, 0.2);
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.form-text {
+    padding: 20px;
+}
+
+.form-submit,
+.box-cartel button {
+    padding: 10px 70px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.box-cartel button a {
+    text-decoration: none;
+    color: black;
+}
+
+.error {
+    text-align: center;
+    background-color: rgba(245, 56, 13, 0.624);
+    color: black;
+}
+
+.succes {
+    text-align: center;
+    background-color: rgba(151, 248, 103, 0.4);
+    color: black;
+}
+
+
+/*Hover-Focus*/
+
+nav li:hover,
+header h1:hover,
+.box-main-table table tr:hover,
+.box-main-table table thead th:hover {
+    background-color: rgba(151, 248, 103, 0.782);
+}
+
+.txt-absolute:hover {
+    background-color: #87b400;
+}
+
+.form-input:focus,
+.form-text:focus,
+.form-select:hover {
+    outline: 1px solid rgba(151, 248, 103, 0.1);
+    box-shadow: 2px 2px 5px 5px rgba(151, 248, 103, 0.2);
+}
+
+.form-input:hover {
+    box-shadow: 0px 0px 5px 5px rgba(11, 230, 18, 0.1);
+}
+
+.form-select:focus,
+.form-input:hover {
+    background-color: rgba(151, 248, 103, 0.2);
+    border: 1px solid #87b400;
+}
+
+.form-text:focus {
+    background-color: rgba(151, 248, 103, 0.1);
+}
+
+.form-submit:hover,
+.box-cartel button:hover {
+    background-color: rgba(151, 248, 103, 1);
+}

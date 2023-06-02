@@ -1,0 +1,109 @@
+body {
+    padding: 0;
+    margin: 1%;
+    box-sizing: border-box;
+}
+
+/*Contenedor General de mi HTML*/
+.contenedoprincipal {
+    background-color: black;
+    width: 90%;
+    max-width: 1600px;
+    margin: auto;
+    /* Flex  */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 10px;
+}
+
+/*Contenedores Padres Principales: header, nav, sidebar, footer */
+/*Contenedores Hijos: produtos, nombre, precio, stock, promociones, datos*/
+
+.header {
+    background-color: orange;
+    width: auto;
+    height: 80px;
+    /*Flex*/
+    display: flex;
+}
+
+.nav {
+    background-color: gray;
+    width: auto;
+    height: auto;
+    /*Flex*/
+    display: flex;
+
+}
+
+.sidebar {
+    background-color:blueviolet;
+    width: auto;
+    height: auto;
+    /*Flex*/
+    display: flex;
+}
+
+.footer {
+    background-color:burlywood;
+    width: auto;
+    height: auto;
+    /*Flex*/
+    display: flex;
+}
+.contenido{
+    background-color:greenyellow;
+    width: 900px;
+    height: auto;
+    /*Flex*/
+    display: flex;
+}
+.productos{
+    background-color: gold;
+    width: auto;
+    height: auto;
+    /*Flex*/
+    display: flex;
+}
+
+.nombre {
+    background-color: blue;
+    width: 80px;
+    height: 120px;
+}
+
+.precio {
+    background-color: yellow;
+    width: 80px;
+    height: 120px;
+}
+
+.stock {
+    background-color: green;
+    width: 80px;
+    height: 120px;
+}
+
+.promociones {
+    background-color: red;
+    width: 240px;
+    height: 120px;
+}
+
+.datos {
+    background-color: pink;
+    width: 350px;
+    height: 150px;
+}
+
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+p {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
