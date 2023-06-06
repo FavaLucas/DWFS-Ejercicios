@@ -1,3 +1,0 @@
-*.psd filter=lfs diff=lfs merge=lfs -text
-1-prog-basica/html-dorian/contenido-embebido/assets/video/argentina2-3840x2160-50fps.mp4.psd filter=lfs diff=lfs merge=lfs -text
-*.mp4 filter=lfs diff=lfs merge=lfs -text
